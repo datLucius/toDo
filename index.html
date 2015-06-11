@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ToDo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="allContent">
+  <header>
+    <div class="toDoTxt">todos</div>
+  </header>
+  <div class="mainContent">
+    <div class="toDoBox">
+      <ul class="inputField">
+        <li class="arrowBox">V</li>
+         <input type="text" name="title" value="" placeholder="imma...." class="inputTextBox">
+      </ul>
+      <ul class="userToDosBox">
+      </ul>
+      <ul class="status">
+        <li class="itemsLeft"> 4 Items Left</li>
+        <ul class="filterButtonBox">
+          <li class="filterStatus">All</li>
+          <li class="filterStatus">Active</li>
+          <li class="filterStatus">Completed</li>
+        </ul>
+        <li class="clearCompleted">Clear completed</li>
+      </ul>
+    </div>
+  </div>
+  <div class="underPage"></div>
+  <div class="underPage2"></div>
+  <footer>Double-click to edit a todo</footer>
+  <script type ="text/javascript" src="bower_components/underscore/underscore.js"></script>
+<script type ="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="templates.js">
+</script>
+<script type="text/javascript" src="refactored.js"></script>
+</div>
+</body>
+</html>

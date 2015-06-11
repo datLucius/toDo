@@ -1,0 +1,20 @@
+{
+  "name": "todoCrud",
+  "version": "0.0.0",
+  "homepage": "https://github.com/datLucius/batmanDrunkRampage",
+  "authors": [
+    "datLucius <jlnelsonart@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3"
+  }
+}
